@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Appt esxt > should render 1`] = `
+<div>
+  <div
+    class="MyComponent"
+  >
+    <div
+      class="header"
+    >
+      React sample
+    </div>
+    <div
+      class="webviewer"
+      style="width: 800px; height: 100vh;"
+    >
+      <apryse-webviewer
+        autocreate="true"
+        autofocusnoteonannotationselection="true"
+        enableannotations="true"
+        enableoptimizedworkers="true"
+        id="wc-"
+        initialdoc="https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf"
+        path="/public/webviewer/lib"
+        preloadpdfworker="true"
+        usedownloader="true"
+        usesharedworker="false"
+        webviewerjsversion="11.1.1"
+      />
+    </div>
+  </div>
+</div>
+`;
